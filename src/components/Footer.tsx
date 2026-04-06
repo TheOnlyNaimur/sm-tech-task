@@ -123,7 +123,7 @@ export default function Footer() {
                     className="w-10 h-10 rounded-full border border-white/50 bg-[#1a1a1a] flex items-center justify-center text-xs font-semibold hover:bg-white transition-all duration-300 group"
                     style={{ fontFamily: 'Inter, sans-serif' }}
                   >
-                    <span style={{ color: '#ffffff' }} className="group-hover:text-black transition-colors duration-300">{s.label}</span>
+                    <span className="text-white group-hover:text-black transition-colors duration-300">{s.label}</span>
                   </a>
                 ))}
               </div>
