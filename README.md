@@ -20,38 +20,43 @@ A high-performance, fully responsive React portfolio website inspired by Floka's
 - **Three.js r150** — WebGL shaders
 - **GSAP** + **Lenis** — Smooth animations
 
-## 📦 Installation
+## 📦 Installat
 
-\\\ash
+```bash
 git clone https://github.com/TheOnlyNaimur/sm-tech-task.git
 cd sm-tech-task
 npm install
 npm run dev
-\\\
+```
 
+```bash
 Development server: http://localhost:5173
-
+```
 ## 🎨 Key Components
 
 - **Navbar** — Responsive with animated hamburger menu
 - **Hero** — Video background with profile card
 - **FunFactsSection** — WebGL ripple shader effect
-- **AwardsSection** — Diamond grid distortion shader  
+- **AwardsSection** — Diamond grid distortion shader
 - **PortfolioGrid** — Parallax hover effects
 - **SplashScreen** — Loading animation on first load
 
 ## 🚀 Deployment
 
 ### Vercel (Recommended)
+
 1. Push to GitHub
 2. Import repository at vercel.com
 3. Auto-deploy with vercel.json config
 
 ### Build Locally
-\\\ash
+
+```bash
 npm run build
+
 # Output in ./dist/
-\\\
+
+```
 
 ## 📱 Responsive Design
 
@@ -67,10 +72,10 @@ npm run build
 
 ## 🛠️ Development
 
-\\\ash
-npm run build    # Full build with TypeScript check
+```bash
+npm run build # Full build with TypeScript check
 npx tsc --noEmit # TypeScript validation
-\\\
+```
 
 ## 📝 License
 
@@ -78,8 +83,7 @@ Open source — fork, modify, and deploy freely.
 
 ## 👤 Author
 
-**Case Themes Studio** — Portfolio & Agency Web Solution  
-© 2025 Floka Studio
+Naimur Islam Navid
 
 ---
 
