@@ -11,7 +11,6 @@ export default function Hero() {
       >
         <source src="https://floka.casethemes.net/wp-content/uploads/2025/06/home-1-video.mp4" type="video/mp4" />
       </video>
-      <div className="absolute inset-0 bg-black/20" />
 
       {/* Floka Studio — bottom left */}
       <div className="absolute bottom-32 sm:bottom-10 left-4 sm:left-10 md:left-16 z-10 leading-none select-none">
